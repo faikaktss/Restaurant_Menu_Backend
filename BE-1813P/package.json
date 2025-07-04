@@ -1,0 +1,28 @@
+{
+  "name": "be-1813p",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/config/server.js",
+    "knex": "npx knex --knexfile src/config/knexfile.js", 
+    "migrate:latest": "npm run knex migrate:latest",
+    "migrate:rollback": "npm run knex migrate:rollback",
+    "migrate:rollback:all": "npm run knex migrate:rollback --all",
+    "seed:run": "npm run knex seed:run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "knex": "^3.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
