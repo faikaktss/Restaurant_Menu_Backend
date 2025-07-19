@@ -83,7 +83,7 @@ node src/config/server.js
 
 ## 📌 Not
 
-Bu proje, restoran veya ürün kataloğu gibi CRUD tabanlı uygulamaların temelini öğrenmek ve geliştirmek isteyenler için başlangıç seviyesinde bir örnektir.
+Bu proje, restoran veya ürün kataloğu gibi CRUD tabanlı uygulamaların temelini öğrenmek ve geliştirmek isteyenler için başlangıç seviyesinde bir örnektir..
 
 ---
 
